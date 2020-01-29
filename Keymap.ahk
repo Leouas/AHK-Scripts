@@ -1,4 +1,5 @@
-﻿CapsLock & V::
+  
+CapsLock & V::
  Run D:\Program Files\Vim\vim81\gvim.exe
   If WinExist("ahk_class Vim")
  WinActivate
@@ -6,7 +7,7 @@ CapsLock & h::Left
 CapsLock & j::Down
 CapsLock & k::up
 CapsLock & l::Right
-CapsLock & y::Run D:\Program Files\Dict\Application\YoudaoDict.exe
+CapsLock & y::Run D:\Youdao\Dict\Application\YoudaoDict.exe
 
 CapsLock & e::
 ;CapsLock Up::
@@ -17,7 +18,7 @@ CapsLock & e::
      WinActivate
   }
    else{
-    Run D:\Program Files\Emeditor\EmEditor.exe
+    Run D:\EmEditor Professional\EmEditor.exe
 }
 return
 ;+CapsLock::CapsLock

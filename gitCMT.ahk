@@ -1,5 +1,5 @@
 ﻿
-Run D:\Program Files\Git\bin\bash.exe
+Run D:\Git\bin\bash.exe
 WinWaitActive ahk_class ConsoleWindowClass
 Send cd /d/GIt/GroupTasks/EGAP
 Send {Enter}
