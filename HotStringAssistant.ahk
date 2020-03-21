@@ -50,7 +50,6 @@ return
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ::btw::by the way
 ::shsf::Stay hungry,stay folish
-::ygl::姚官磊
 ::\kengdy::
 send {Enter}庄子说{Enter}
 sleep 100
@@ -67,9 +66,6 @@ sleep 100
 send {Enter}将狂风暴雨都容纳进内心，却不为之困恼和苦闷。{Enter}
 return
 
-
-;:*:-R::-->
-;:*:-L::<--
 :R:@::@163.com
 :*:\dd::
     d =%A_YYYY%-%A_MM%-%A_DD%
@@ -90,4 +86,6 @@ return
     return
 
 
-:*:\gitcmt::git add .`rgit commit -m'simple commit'`rgit push origin master`r
+:*:\gitcmt::git add . && git commit -m'update' && git push origin master`r
+
+:*:\cdn::https://cdn.jsdelivr.net/gh/Leouas/Leouas-img/

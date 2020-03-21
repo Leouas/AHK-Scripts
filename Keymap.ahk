@@ -1,8 +1,8 @@
-  
+#NoTrayIcon
 CapsLock & V::
- Run D:\Program Files\Vim\vim81\gvim.exe
-  If WinExist("ahk_class Vim")
- WinActivate
+	Run D:\Vim\vim82\gvim.exe
+	WinActivate
+	return
 CapsLock & h::Left
 CapsLock & j::Down
 CapsLock & k::up
@@ -21,4 +21,18 @@ CapsLock & e::
     Run D:\EmEditor Professional\EmEditor.exe
 }
 return
-;+CapsLock::CapsLock
+
+
+#IfWinActive ahk_class Vim
+Capslock::Esc
+#IfWinActive
+
+#IfWinActive ahk_class ENSingleNoteView
+^w::send !{F4}
+#IfWinActive
+
+#IfWinActive ahk_class YXMainFrame
+^w::send !{F4}
+#IfWinActive
+
+;ScrollLock::^#Right
