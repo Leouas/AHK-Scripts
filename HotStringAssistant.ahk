@@ -89,3 +89,5 @@ return
 :*:\gitcmt::git add . && git commit -m'update' && git push origin master`r
 
 :*:\cdn::https://cdn.jsdelivr.net/gh/Leouas/Leouas-img/
+:R:newblog::---`rtitle: `rdate: `rcategories:`rtags:`rphoto:`r---
+
